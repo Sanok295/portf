@@ -1,0 +1,239 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  color: #fff;
+}
+.info {
+  margin: 0 auto;
+  width: 1200px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+  width: 1200px;
+}
+.up {
+  margin: 0 auto;
+  background-image: url(../img/Layer\ 13.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.up__1_1 {
+  padding: 40px 90px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.img__up {
+  width:290px;
+  height:90px;
+}
+.list__pane__up {
+  list-style: none;
+  display: flex;
+}
+.punkt__panel__up {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  transition: 0.5s;
+  border-radius: 1ch;
+}
+.punkt__panel__up:hover{
+  background-color: #000033;
+  cursor: pointer;
+}
+.up__1_2 {
+  text-align: left;
+  margin: 135px 90px 0;
+  padding-bottom: 100px;
+}
+.title__up__1_2 {
+  font-size: 80px;
+  text-transform: uppercase;
+  max-width: 480px;
+  line-height: 18px;
+}
+.videlit{
+  margin: 0;
+  padding-bottom: 60px;
+  color:#000033 ;
+  display: inline-block;
+}
+.text__up__1_2 {
+  color: #fff;
+  font-size: 18px;
+  font-family: "PTSerif";
+  line-height: 30px;
+  text-align: left;
+  max-width: 465px;
+  padding: 0;
+}
+
+
+.middle {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.middle__title {
+  font-size: 50px;
+  color: #aa281c;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 30px 0 60px 60px;
+}
+.middle__box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  margin: 0;
+}
+.middle__card {
+  padding: 0 60px;
+  text-align: center;
+}
+.fa {
+  font-size: 140px;
+  width: 160px;
+  height: 145px;
+  color:#000033
+}
+.card__text {
+  color:#000033;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.middle__2 {
+  background-color:#000033;
+  display: flex;
+  justify-content: space-between;
+}
+.middle__2text {
+  margin: 30px 80px;
+  font-size: 16px;
+  max-width: 600px;
+  padding-top: 10px;
+}
+.end__try, .middle__our{
+  margin: 30px 80px;
+  height: 70px;
+  width: 270px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 2px #aa281b solid;
+  background-color: #000033;
+  transition: 0.3s;
+  border-radius: 1ch;
+}
+.end__try:hover, .middle__our:hover{
+  background-color: #aa281b;
+  cursor: pointer;
+}
+.middle__1_2 {
+  background-color: #000033;
+  display: flex;
+  justify-content: space-between;
+}
+.middle__1_2_text {
+  text-align: justify;
+  font-size: 18px;
+  max-width: 600px;
+  margin: 40px 100px;
+}
+.middle_our{
+  margin: auto 100px;
+  height: 60px;
+  width: 270px;
+  color: #fff;
+  background-color: #000033;
+  border-radius: 1ch;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.1s;
+  border: 2px solid #aa281c;
+}
+.middle_our:hover{
+  background-color: #aa281c;
+  cursor: pointer;
+}
+
+
+.end {
+  background-origin: padding-box;
+  margin: 0 auto;
+  background-color: #eeeeee;
+  padding-top: 60px;
+}
+.end__head{
+  margin: 0;
+  padding: 0;
+}
+.end__title {
+  text-align: center; 
+  font-size: 50px;
+  color: #000033;
+  text-transform: uppercase;
+  margin: 0 auto 60px;
+}
+.end__box {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 100px;
+  padding-bottom: 50px;
+}
+.end__card {
+  text-align: center;
+  background-color: #fff;
+  border: 2px #000033 solid;
+}
+.end__head {
+  color: #000033;
+  font-size: 22px;
+  margin: 20px 0 15px;
+  font-weight: normal;
+}
+.end__word {
+  font-size: 60px;
+  color: #aa281b;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.end__list {
+  color: #000033;
+  font-size: 20px;
+  margin-top: 12px;
+  padding: 0;
+  line-height: 30px;
+  list-style: none;
+}
+.end__try{
+  margin: 50px;
+  height: 50px;
+  width: 200px;
+}
+.finish {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000033;
+  margin: 0 auto;
+  width: 1200px;
+}
+.finish_text {
+  margin: 80px 90px 85px;
+  font-size: 20px;
+}
+.finish__span {
+  color: #aa281b;
+}
+.finish__img {
+  width: 200px;
+  height: 70px;
+  margin: 80px 90px 85px;
+}
+
